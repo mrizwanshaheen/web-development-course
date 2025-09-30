@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 4</title>
+</head>
+<body>
+
+    <h1>Day 4 Practice Page</h1>
+    <hr>
+
+    <h2>Today’s Learning</h2>
+    <p>
+        I revised headings, paragraph, links, images, hr tag, lists, 
+        and today I also practiced tables.
+    </p>
+
+    <h2>Some Links</h2>
+    <ul>
+        <li><a href="https://github.com/mrizwanshaheen/web-development-course">My GitHub Repo</a></li>
+        <li><a href="https://www.google.com">Google Search</a></li>
+    </ul>
+
+    <h2>Daily Routine Example</h2>
+    <ol>
+        <li>Wake up</li>
+        <li>Learn HTML</li>
+        <li>Write my practice code</li>
+        <li>Upload work on GitHub</li>
+    </ol>
+
+    <hr>
+
+    <h2>Image Example</h2>
+    <p>If image doesn’t load, alt text will show:</p>
+    <img src="myimage.jpg" alt="Sample practice image" width="250">
+
+    <hr>
+
+    <h2>My Learning Table</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Day 1</td>
+            <td>Headings & Paragraph</td>
+            <td>✅ Done</td>
+        </tr>
+        <tr>
+            <td>Day 2</td>
+            <td>Links & Images</td>
+            <td>✅ Done</td>
+        </tr>
+        <tr>
+            <td>Day 3</td>
+            <td>Alt, hr tag</td>
+            <td>✅ Done</td>
+        </tr>
+        <tr>
+            <td>Day 4</td>
+            <td>Lists & Tables</td>
+            <td>⏳ Practicing</td>
+        </tr>
+    </table>
+
+</body>
+</html>
