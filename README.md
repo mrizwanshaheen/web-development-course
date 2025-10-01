@@ -5,7 +5,7 @@ Hi 👋 I’m Rizwan and this repo is where I keep all my daily practice files w
 # Why I’m Doing This  
 
 - To build a daily coding habit  
-- To remember HTML concepts better by writing them myself  
+- To remember web development concepts better by writing them myself  
 - To track my progress step by step  
 - To share my journey with others.  
 
