@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 9 - CSS Priority Practice</title>
+
+  <style>
+    /* Tag selector */
+    p {
+      color: blue;
+    }
+
+    /* Class selector */
+    .highlight {
+      color: green;
+    }
+
+    /* ID selector */
+    #special {
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+  <h1>Day 9 - CSS Priority Example</h1>
+
+  <!-- Tag selector only -->
+  <p>Paragraph One - This is styled by tag selector (blue)</p>
+
+  <!-- Class selector overrides tag -->
+  <p class="highlight">Paragraph Two - Styled by class selector (green)</p>
+
+  <!-- ID selector overrides tag -->
+  <p id="special">Paragraph Three - Styled by ID selector (purple)</p>
+
+  <!-- Both class and ID, ID wins -->
+  <p class="highlight" id="special">
+    Paragraph Four - Both class and ID applied, ID wins (purple)
+  </p>
+
+  <!-- Inline style overrides all -->
+  <p style="color:red;" class="highlight" id="special">
+    Paragraph Five - Inline style applied, this wins (red)
+  </p>
+</body>
+</html>
