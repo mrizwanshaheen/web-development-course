@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 15: Multimedia in HTML | Muhammad Rizwan</title>
+  
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    h2 {
+      color: #4a148c;
+      border-left: 5px solid #4a148c;
+      padding-left: 10px;
+    }
+
+    img, video, audio, iframe {
+      display: block;
+      margin: 15px auto;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #4a148c;
+      color: white;
+      padding: 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    caption {
+      font-weight: bold;
+      color: #4a148c;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Day 15: Multimedia in HTML</h1>
+    <p>By Muhammad Rizwan</p>
+  </header>
+
+  <!-- Image Section -->
+  <section>
+    <h2>1️⃣ Image Example</h2>
+    <p>This image is displayed using the <b>&lt;img&gt;</b> tag with an alt attribute.</p>
+    <img src="https://drive.google.com/uc?export=view&id=13mFnsxBsNo4yrWnM2WsvPVb22P-hoNdB" alt="Muhammad Rizwan Photo">
+  </section>
+
+  <!-- Audio Section -->
+  <section>
+    <h2>2️⃣ Audio Example</h2>
+    <p>Below is an example of an audio clip using the <b>&lt;audio&gt;</b> tag with controls.</p>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+  <!-- Video Section -->
+  <section>
+    <h2>3️⃣ Video Example</h2>
+    <p>This video demonstrates the use of the <b>&lt;video&gt;</b> tag with autoplay, loop, and controls.</p>
+    <video width="640" height="360" controls loop poster="https://www.w3schools.com/html/img_chania.jpg">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+  </section>
+
+  <!-- YouTube Iframe Section -->
+  <section>
+    <h2>4️⃣ YouTube Video Embed (iframe)</h2>
+    <p>Here’s an embedded YouTube video using the <b>&lt;iframe&gt;</b> tag with custom settings (autoplay, mute, loop).</p>
+    <iframe 
+      width="560" 
+      height="315"
+      src="https://www.youtube.com/embed/2Ji-clqUYnA?autoplay=1&mute=1&loop=1&playlist=2Ji-clqUYnA&controls=1&modestbranding=1"
+      title="JavaScript basics YouTube video player"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2025 Muhammad Rizwan | Web Development Learning Series</p>
+  </footer>
+
+</body>
+  </html>
