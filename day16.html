@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- SEO & Meta Information -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Day 16 - Learning advanced HTML concepts like entities, comments, and HTML5 form input types.">
+  <title>Day 16 | HTML Entities & Input Types Practice</title>
+
+  <!-- 🖋️ Internal CSS for basic styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    h1 {
+      color: #0077cc;
+      text-align: center;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea {
+      margin: 5px 0 15px 0;
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Day 16 - HTML Entities, Comments & Advanced Input Types</h1>
+
+  <!-- 🔹 Section 1: HTML Entities -->
+  <section>
+    <h2>HTML Entities Example</h2>
+    <p>This is how you display reserved characters correctly:</p>
+    <p>5 &lt; 10 and 10 &gt; 5</p>
+    <p>Copyright &copy; 2025 Muhammad Rizwan</p>
+    <p>Spacing Example: Muhammad&nbsp;&nbsp;&nbsp;Rizwan</p>
+    <p>Registered Symbol: AlBurhan Holidays&reg;</p>
+  </section>
+
+  <!-- 🔹 Section 2: HTML Comments -->
+  <section>
+    <h2>HTML Comments Example</h2>
+    <!-- This comment will not appear on the webpage -->
+    <p>Comments are invisible in browser but useful in code to explain sections.</p>
+  </section>
+
+  <!-- 🔹 Section 3: Advanced Input Types -->
+  <section>
+    <h2>Advanced HTML5 Input Types</h2>
+    <form>
+      <label for="favColor">Choose your favorite color:</label>
+      <input type="color" id="favColor"><br>
+
+      <label for="volume">Volume Level (0 to 100):</label>
+      <input type="range" id="volume" min="0" max="100"><br>
+
+      <label for="website">Your Website URL:</label>
+      <input type="url" id="website" placeholder="https://example.com"><br>
+
+      <label for="meeting">Select Meeting Date & Time:</label>
+      <input type="datetime-local" id="meeting"><br>
+
+      <label for="contact">Phone Number:</label>
+      <input type="tel" id="contact" placeholder="+92-300-1234567"><br>
+
+      <label for="searchBox">Search something:</label>
+      <input type="search" id="searchBox" placeholder="Search here"><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <!-- 🔹 Section 4: SEO Note -->
+  <section>
+    <h2>SEO-Friendly Tags Reminder</h2>
+    <p>Using proper heading structure <code>&lt;h1&gt; to &lt;h6&gt;</code>, adding <code>alt</code> text in images, and meaningful meta tags help your website perform better on search engines.</p>
+  </section>
+
+  <footer>
+    <p>Created by Muhammad Rizwan</p>
+  </footer>
+
+</body>
+</html>
