@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 1 - CSS Introduction and Priority</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+
+    p {
+      color: darkslategray;
+      font-size: 18px;
+    }
+
+    /* This paragraph will be green because of internal CSS */
+    .internal-style {
+      color: green;
+    }
+  </style>
+
+  <!-- Linking External CSS (just for understanding, not an actual file here) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Inline CSS Example -->
+  <h1 style="color: purple;">Welcome to CSS Learning!</h1>
+
+  <p>This paragraph is styled using internal CSS from the head tag.</p>
+
+  <p class="internal-style">
+    This paragraph shows internal CSS using a class selector.
+  </p>
+
+  <p style="color: red; font-size: 20px;">
+    This paragraph is using inline CSS, so it will override other styles.
+  </p>
+
+  <p>
+    External CSS would normally apply here if we had a linked file named style.css.
+  </p>
+
+  <hr>
+
+  <h3>CSS Priority Recap:</h3>
+  <ul>
+    <li>Inline CSS → Highest priority</li>
+    <li>Internal CSS → Medium priority</li>
+    <li>External CSS → Lowest priority</li>
+  </ul>
+
+  <p style="text-align:center; color:gray;">
+    — Created by Muhammad Rizwan | Day 1: CSS Introduction and Priority —
+  </p>
+
+</body>
+</html>
