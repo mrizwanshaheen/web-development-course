@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 18 - CSS Colors, Backgrounds & Fonts</title>
+
+  <style>
+    /* Background color of the whole page */
+    body {
+      background-color: #f4f4f9;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header section */
+    header {
+      background-color: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* About section */
+    .about {
+      background-color: #fff;
+      margin: 40px auto;
+      padding: 30px;
+      width: 80%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .about h2 {
+      color: #4a90e2;
+      text-decoration: underline;
+      text-align: center;
+    }
+
+    .about p {
+      color: #555;
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    /* Highlighted text */
+    .highlight {
+      color: #e94e77;
+      font-weight: bold;
+      background-color: #fce4ec;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    CSS Colors, Backgrounds & Fonts
+  </header>
+
+  <section class="about">
+    <h2>About Today's Learning</h2>
+    <p>
+      Today, I learned how to add <span class="highlight">colors</span>, 
+      <span class="highlight">backgrounds</span>, and 
+      <span class="highlight">fonts</span> in CSS to make a webpage look beautiful and professional.
+      These small visual elements create a big difference in the user experience.
+    </p>
+    <p>
+      We explored color formats like HEX, RGB, and RGBA — how to use background images, 
+      and how to style fonts with <b>font-family</b>, <b>font-size</b>, and <b>text-align</b>.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Muhammad Rizwan | Web Development Practice – Day 18
+  </footer>
+
+</body>
+</html>
