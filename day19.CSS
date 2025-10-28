@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 19 - CSS Box Model</title>
+
+  <style>
+    /* Basic page setup */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      width: 80%;
+      margin: 40px auto;
+      text-align: center;
+    }
+
+    .box {
+      background-color: #ffffff;
+      border: 4px solid #4a90e2;
+      padding: 30px;
+      margin: 40px auto;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .box h2 {
+      color: #4a90e2;
+      margin-bottom: 15px;
+    }
+
+    .box p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* Visual demonstration */
+    .example {
+      width: 200px;
+      margin: 30px auto;
+      padding: 20px;
+      border: 5px solid #e94e77;
+      background-color: #fce4ec;
+      text-align: center;
+      color: #333;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Day 19 – CSS Box Model
+  </header>
+
+  <div class="container">
+    <div class="box">
+      <h2>Understanding Box Model</h2>
+      <p>
+        Every element in CSS behaves like a box made up of four layers:
+        <b>Content</b>, <b>Padding</b>, <b>Border</b>, and <b>Margin</b>.
+      </p>
+    </div>
+
+    <div class="example">
+      <p>Box Example</p>
+      <small>(Margin → Border → Padding → Content)</small>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Muhammad Rizwan | Web Development Practice – Day 19 (CSS Box Model)
+  </footer>
+
+</body>
+</html>
